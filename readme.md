@@ -24,27 +24,8 @@ Laravel is accessible, yet powerful, providing tools needed for large, robust ap
 # Laravel AdminLTE
 
 ```
-"require": {
-        "php": ">=5.6.4",
-        "laravel/framework": "5.4.*",
-        "laravel/tinker": "~1.0",
-        "laravelcollective/html": "^5.3.0"  <-- add this
-},
+> cd AdminLTE-laravel-template
+> npm install
 ```
 
-Then, 
-
-``` composer update ```
-
-
-add extra provider ```app.php```
-
-```php
-Collective\Html\HtmlServiceProvider::class
-```
-
-add aliases
-```php
-'Form' => Collective\Html\FormFacade::class,
-'Html' => Collective\Html\HtmlFacade::class,
-````
+Done! :)
