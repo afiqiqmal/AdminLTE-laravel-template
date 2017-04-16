@@ -25,7 +25,7 @@ Laravel is accessible, yet powerful, providing tools needed for large, robust ap
 
 ```
 > cd AdminLTE-laravel-template
-> npm install
+> composer update
 ```
 
 Done! :)
